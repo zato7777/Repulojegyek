@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MenuStyle" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:background">@color/blue</item>
+        <item name="android:textColor">@color/sotet_valami</item>
+    </style>
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE271"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:id="@+id/registrationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/registration_text"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registrationText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints="username"
+        android:hint="@string/registration_username"
+        android:inputType="text"
+        android:minHeight="50dp"
+        android:textColor="#2196F3" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints="emailAddress"
+        android:hint="@string/registration_email"
+        android:inputType="textEmailAddress"
+        android:minHeight="50dp"
+        android:textColor="#2196F3" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints="password"
+        android:hint="@string/registration_password"
+        android:inputType="textPassword"
+        android:minHeight="50dp"
+        android:textColor="#2196F3" />
+
+    <EditText
+        android:id="@+id/passwordConfirmationEditText"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints="password"
+        android:hint="@string/registration_password_verification"
+        android:inputType="textPassword"
+        android:minHeight="50dp"
+        android:textColor="#2196F3" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/passwordConfirmationEditText"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="500dp"
+        android:maxHeight="260dp">
+
+
+        <Button
+            android:id="@+id/registrationVerificationButton"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_text"
+            android:textColor="#212121"
+            android:textColorLink="#2196F3"
+            app:backgroundTint="#2196F3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            android:onClick="register"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/registrationCancelButton"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_cancel_button"
+            android:textColor="#212121"
+            android:textColorLink="#2196F3"
+            app:backgroundTint="#2196F3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            android:onClick="cancel"
+            tools:ignore="UsingOnClickInXml" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

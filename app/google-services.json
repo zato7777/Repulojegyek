@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "398002460571",
+    "project_id": "repulojegyek-57c32",
+    "storage_bucket": "repulojegyek-57c32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398002460571:android:b4ff80e74ac28e6f36733e",
+        "android_client_info": {
+          "package_name": "com.example.repulojegyek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398002460571-6setvqp19092f4si9mm0gsvsgvh6r0he.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.repulojegyek",
+            "certificate_hash": "3c17c139fedc720ec4e4170416d7467db1c1ec07"
+          }
+        },
+        {
+          "client_id": "398002460571-lkbl77ulgrbngfud1j082od4nudpda95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ML64QQ801sIswDSH9vI6tJTCuH1F_x8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398002460571-lkbl77ulgrbngfud1j082od4nudpda95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

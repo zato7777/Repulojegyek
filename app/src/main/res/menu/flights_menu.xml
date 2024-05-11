@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="@color/gold">
+
+
+
+    <item
+        android:id="@+id/search_bar"
+        android:title="@string/search"
+        android:icon="@drawable/search_bar_icon"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+
+        />
+
+    <item
+        android:id="@+id/ownTickets"
+        android:title="@string/own_tickets"
+        android:icon="@drawable/airplane_ticket_icon"
+        app:showAsAction="always"
+
+        />
+
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile"
+        android:icon="@drawable/account_icon"
+        app:showAsAction="always"
+
+        />
+
+    <item
+        android:id="@+id/openCamera"
+        android:title="@string/camera"
+        app:showAsAction="never"
+
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        app:showAsAction="never"
+
+        />
+</menu>
